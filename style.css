@@ -1,0 +1,528 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+
+}
+
+.menubar {
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+    background: url("../img/home-three-1-1920x800.jpg") top center;
+    background-size: cover;
+}
+
+ul.myul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.myul li {
+    float: left;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.myul li a {
+    text-decoration: none;
+    color: black;
+    bottom: 0px;
+
+}
+
+li.logo.img {
+    margin-bottom: 120px;
+}
+
+.logo img {
+    height: "125px";
+    width: "125px";
+}
+
+.center {
+    background-image: url('images/home-three-1-1920x800.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.content {
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 20px 90px;
+    height: 200px;
+    width: auto;
+}
+
+.content h1 {
+    font-size: 55px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+p.large {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #6f6b6b;
+    padding-left: 4px;
+
+    margin-bottom: 60px;
+}
+
+.content a {
+    border: 2px solid #014d55;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background-color: #014d55;
+    color: white;
+
+}
+
+.left {
+    background-color: #f5f8f9;
+    padding: 200px 0px;
+
+}
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 30px 20px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+
+    padding: 16px;
+    text-align: center;
+    background-color: #f5f8f9;
+}
+
+.card h2 {
+    padding-left: 18px;
+    color: rgb(225, 164, 164);
+
+}
+
+p.big {
+
+    line-height: 27px;
+    padding-left: 30px;
+    color: #6f6b6b;
+    text-align: left;
+    word-spacing: normal;
+
+
+}
+
+.card a {
+
+    border: 2px solid #014d55;
+    padding: 15px 45px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-color: #014d55;
+    color: white;
+
+
+}
+
+.right {
+    background-image: url('images/home-three-2-910x800.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.image {
+    background-image: url('images/home-three-3-1011x800.jpg');
+    width: 40%;
+    padding: 20px 10px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    align-items: left;
+    color: white;
+    height: 600px;
+
+
+}
+
+.img-content img {
+    color: white;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.box-icon-text {
+    font-family: "Arvo", Helvetica, Arial, sans-serif;
+    word-spacing: 1.5px;
+    font-weight: lighter;
+}
+
+.text {
+
+    padding-bottom: 200px;
+    padding-right: 70px;
+}
+
+.text h1 {
+
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.text a {
+    border: 2px solid #014d55;
+    padding: 15px 45px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 300px;
+    background-color: #014d55;
+    color: white;
+    align-items: flex;
+
+}
+
+#barbarpage {
+    background-image: url('images/bg-image-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: left;
+    padding: 80px 0;
+
+}
+
+.text-container h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+
+}
+
+.bdesc p {
+    text-align: center;
+    font-weight: normal;
+    color: #bfa8a8;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 28px;
+
+
+}
+
+.bcontainer {
+
+    padding-left: 50px;
+
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card-barbar {
+
+
+    padding-bottom: 180px;
+    background-color: #f5f8f9;
+    display: inline;
+    color: black;
+
+
+}
+
+.card-barbar img {
+    width: 350px;
+    height: 200px;
+}
+
+
+.discription h4 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.discription p {
+
+
+    padding-left: 5%;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+
+}
+
+.icon li {
+
+    display: inline-flex;
+    list-style: none;
+    padding-left: 15%;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.icon li a {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.bg-location {
+    background-image: url('images/bg-location.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: left;
+    padding: 40px 0;
+}
+
+.contactus {
+
+    background-color: white;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    padding: 50px 10%;
+    display: inline-block;
+    border-right: 2px solid gray;
+
+}
+
+.contactus address {
+    line-height: 27px;
+    color: gray;
+}
+
+.contactus small {
+    color: gray;
+    line-height: 10px;
+
+}
+
+.footer {
+    width: 100%;
+    background-color: hsl(195, 25%, 94%);
+    display: inline-flex;
+    padding: 80px 0;
+}
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    color: #6f6b6b;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-left: 60%;
+
+}
+
+.logo ul {
+    padding-left: 10%;
+
+}
+
+.logo ul li a {
+    color: gray;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .myul li {
+
+        padding: 15px 5px;
+        font-size: 16px;
+
+    }
+
+    .content h1 {
+        font-size: 30px;
+
+    }
+
+    p.large {
+        font-size: 12px;
+
+        padding-left: 40px;
+
+
+    }
+
+    .logo img {
+
+        width: 50%;
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+
+        font-size: 40px;
+        padding-left: 30%;
+    }
+
+    .text p {
+        font-size: 14px;
+        padding-left: 30%;
+
+    }
+
+    .text a {
+
+        padding: 10px 20px;
+        margin-right: 8%;
+
+
+    }
+
+    .bcontainer {
+        padding-left: 20%;
+        padding-top: 50px;
+        color: white;
+
+    }
+
+    .text-container h1 {
+
+        font-size: 35px;
+
+    }
+
+    .bdesc p {
+
+        padding: 15px;
+        font-size: 20px;
+        line-height: 27px;
+
+
+    }
+
+    .card-barbar {
+
+        padding-top: 30%;
+
+    }
+
+    .discription h4 {
+        padding-left: 0;
+        padding-top: 20px;
+        width: 80%;
+    }
+
+
+
+    .discription p {
+
+        width: 75%;
+        padding-left: 15px;
+        padding-top: 20px;
+        display: flex;
+
+
+    }
+
+    .icon li {
+
+
+        padding-left: 15%;
+        padding-top: 15px;
+
+
+    }
+
+    .contactus {
+
+
+        padding: 20px 15%;
+
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin-top: 10%;
+
+    }
+
+    .logo {
+        padding-left: 10%;
+    }
+
+    .logo ul {
+        padding-left: 10%;
+
+    }
+
+
+}
